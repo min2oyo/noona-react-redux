@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import './App.css';
+import Box from './component/Box';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <>
       <h1>{count}</h1>
       <button onClick={increase}>증가!</button>
+      <Box />
     </>
   );
 }
